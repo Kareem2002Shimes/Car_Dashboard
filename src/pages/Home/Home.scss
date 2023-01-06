@@ -1,0 +1,20 @@
+.home {
+  position: relative;
+  .homeContainer {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: calc(100% - 300px);
+    .featuredBox,
+    .chartBox,
+    .cars {
+      display: flex;
+      padding: 25px 25px 0 25px;
+      gap: 25px;
+      background-color: #f5f5f5;
+    }
+    .cars {
+      padding-bottom: 25px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.areaChart {
+  flex: calc(100% / 2);
+  padding: 10px;
+  border-radius: 14px;
+  background-color: white;
+  height: 350px;
+  .top {
+    padding: 0 30px;
+    .title {
+      font-size: 28px;
+      color: #242731;
+      font-weight: normal;
+      span {
+        font-weight: 700;
+      }
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f4f6;
+        border-radius: 24px;
+
+        li {
+          margin-right: 15px;
+          border-radius: 24px;
+          width: 60px;
+          height: 28px;
+          text-align: center;
+          cursor: pointer;
+          &:last-child {
+            margin-right: 0;
+          }
+          span {
+            font-size: 14px;
+            line-height: 28px;
+            color: #5f6165;
+            font-weight: 700;
+          }
+        }
+        li.active {
+          background-color: #ff764c;
+          span {
+            color: white;
+          }
+        }
+      }
+      span {
+        color: #5f6165;
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+.carContainer {
+  flex: calc(100% / 3);
+  padding: 30px;
+  border-radius: 14px;
+  background-color: white;
+  height: 260px;
+  .top {
+    margin-bottom: 15px;
+    img {
+      width: 28px;
+      height: 28px;
+      margin-right: 15px;
+    }
+    .text {
+      color: #242731;
+      font-weight: 700;
+      font-size: 23px;
+    }
+  }
+  .center {
+    img {
+      width: 100%;
+      height: 120px;
+    }
+  }
+  .details {
+    .carName {
+      color: #1f2128;
+      font-weight: 700;
+      font-size: 26px;
+      text-transform: capitalize;
+    }
+    .bottom {
+      justify-content: space-between;
+      span {
+        color: #72767c;
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 4px;
+        &:nth-child(2) {
+          font-size: 18.5px;
+        }
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          margin-right: 20px;
+          &:last-child {
+            margin-right: 0;
+          }
+          img {
+            width: 22px;
+            height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
