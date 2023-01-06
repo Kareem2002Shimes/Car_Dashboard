@@ -1,3 +1,9 @@
+## Live Preview: https://car-dashboard-cyan.vercel.app/
+
+Coded by - [kareem shimes]
+
+![](/capture.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
